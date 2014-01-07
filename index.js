@@ -18,7 +18,7 @@ function context () {
           if(!e)
             e = document.createElement(v)
           else if (v[0] === '.')
-            e.className = s
+            e.className = e.className ? e.className + ' ' + s : s
           else if (v[0] === '#')
             e.setAttribute('id', s)
         })

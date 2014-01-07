@@ -38,6 +38,7 @@ test('can use id selector', function(t){
 
 test('can use class selector', function(t){
   t.equal(h('div.panel').outerHTML, '<div class="panel"></div>')
+  t.equal(h('div.panel.panel-left').outerHTML, '<div class="panel panel-left"></div>')
   t.end()
 })
 

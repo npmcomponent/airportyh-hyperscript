@@ -1,0 +1,12 @@
+{
+  "name": "hyperscript",
+  "repo": "airportyh/hyperscript",
+  "version": "1.3.2",
+  "description": "DOM builder with support for observables",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ],
+  "author": "Dominic Tarr",
+  "license": "MIT"
+}

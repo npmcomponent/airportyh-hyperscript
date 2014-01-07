@@ -7,6 +7,9 @@
   "scripts": [
     "index.js"
   ],
+  "dependencies": {
+    "juliangruber/browser-split": "*"
+  },
   "author": "Dominic Tarr",
   "license": "MIT"
 }

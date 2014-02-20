@@ -1,4 +1,4 @@
-var split = require('browser-split')
+var split = require('juliangruber-browser-split')
 
 function context () {
 
